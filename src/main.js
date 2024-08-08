@@ -4,7 +4,7 @@ import { createPlatform } from "./components/platform";
 import { createTree } from "./components/tree";
 import { addControls } from "./systems/controls";
 import { addCollisions } from "./systems/collisions";
-import { initScore, updateScore, getScore } from "./systems/score";
+import { initScore, updateScore } from "./systems/score";
 
 // Definisci la scena di gioco
 k.scene("game", () => {
